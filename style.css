@@ -3,8 +3,6 @@
     to {opacity: 1;}
 }
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -44,21 +42,13 @@ button:hover{
     height: 400px;
     text-align: center;
     margin: 15px;
-    /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); */
     z-index: 0;
     border: 1px solid rgb(146, 146, 146);
     animation: fade 1s;
     cursor: pointer;
-    
-    /* border-radius: 20px; */
-   
 }
 
 .card:hover{
-    /* position: fixed;
-    z-index: 1; */
-    /* width: 210px;
-    height: 410px; */
     background-color: #F5FFFA;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
@@ -67,15 +57,12 @@ button:hover{
 .active{
     width: 500px;
     height: 500px;
-    /* animation: fade 1s; */
+    animation: fade 1s;
 }
 
 .card img{
     margin: 12px auto;
     width: 90%
-
-    /* border: 1px solid blue;
-    border-radius: 15px; */
 }
 .card  p{
     padding: 5px;
@@ -84,8 +71,8 @@ button:hover{
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    /* color: brown; */
 }
+
 .cardDesc  p{
     padding: 0 10px;
     font-family: Arial, Helvetica, sans-serif;
