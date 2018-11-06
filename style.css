@@ -1,0 +1,107 @@
+@keyframes fade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+button{
+    width: 70px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 8px 0px;
+    margin:0 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: #fff;
+    background-color: black;
+    transition: 0.5s;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 4px, solid, red;
+}
+
+.card{
+    position: relative;
+    background-color: #F8F8FF;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    margin: 15px;
+    /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); */
+    z-index: 0;
+    border: 1px solid rgb(146, 146, 146);
+    animation: fade 1s;
+    cursor: pointer;
+    
+    /* border-radius: 20px; */
+   
+}
+
+.card:hover{
+    /* position: fixed;
+    z-index: 1; */
+    /* width: 210px;
+    height: 410px; */
+    background-color: #F5FFFA;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.active{
+    width: 500px;
+    height: 500px;
+    /* animation: fade 1s; */
+}
+
+.card img{
+    margin: 12px auto;
+    width: 90%
+
+    /* border: 1px solid blue;
+    border-radius: 15px; */
+}
+.card  p{
+    padding: 5px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    /* color: brown; */
+}
+.cardDesc  p{
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: justify;
+    color: black;
+}
+
+.cardPrice{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.cardPrice p{
+    color: red;
+    text-align: center;
+}
